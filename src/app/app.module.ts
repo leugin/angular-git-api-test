@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
-import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatInputModule} from '@angular/material/input';
 
 import {HttpServiceModule} from './shared/http-service/http-service.module';
@@ -24,7 +23,6 @@ import {HttpServiceModule} from './shared/http-service/http-service.module';
     MatCardModule,
     MatButtonModule,
     MatTableModule,
-    MatPaginatorModule,
     HttpServiceModule,
     MatInputModule
   ],

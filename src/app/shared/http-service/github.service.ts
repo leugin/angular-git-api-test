@@ -7,13 +7,12 @@ import {environment} from '../../../environments/environment';
 })
 export class GithubService {
 
-  private URL = `https://api.github.com/repos/{user}/{repo}/commits`;
-  private USER  = environment.user;
-  private REPO = environment.reposository;
+  private URL = environment.url;
+ 
   
   constructor(private httpClient: HttpClient) { }
 
   get(){
-    return this.httpClient.get('https://api.github.com/repos/leugin/ApiResponse/commits');
+    return this.httpClient.get(this.URL);
   }
 }

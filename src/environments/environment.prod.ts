@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  reposository: 'angular-git-api-test',
-  user: 'leugin'
+  url: 'https://api.github.com/repos/leugin/ApiResponse/commits'
+
 };
