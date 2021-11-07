@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  reposository: 'angular-git-api-test',
+  user: 'leugin'
 };

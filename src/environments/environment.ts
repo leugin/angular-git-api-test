@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  reposository: 'ApiResponse',
+  reposository: 'angular-git-api-test',
   user: 'leugin'
 };
 

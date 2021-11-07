@@ -9,7 +9,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatInputModule} from '@angular/material/input';
 
+import {HttpServiceModule} from './shared/http-service/http-service.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatCardModule,
     MatButtonModule,
     MatTableModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    HttpServiceModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
